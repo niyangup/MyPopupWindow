@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mypopupwindow.MainActivity" >
+	<RelativeLayout 
+	    android:layout_width="200dp"
+	    android:layout_height="wrap_content">
+	    <EditText 
+	        android:id="@+id/et_num"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:hint="请输入QQ号码"
+	        />
+	    <ImageButton 
+	        android:id="@+id/ib_choose"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/down_arrow"
+	        android:paddingTop="4dp"
+	        android:layout_alignParentRight="true"
+	        android:background="@null"/>
+	</RelativeLayout>
+
+</RelativeLayout>
